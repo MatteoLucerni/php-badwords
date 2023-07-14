@@ -46,6 +46,8 @@ $censured_string = str_replace($word_to_clip, '***', $full_string)
             <h4>
                 <?= strlen($censured_string) ?>
             </h4>
+
+            <a href="index.html" class="btn btn-secondary">Torna alla pagina iniziale</a>
         </div>
     </div>
 </body>
