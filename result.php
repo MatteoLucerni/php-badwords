@@ -14,13 +14,28 @@ $censured_string = str_replace($word_to_clip, '***', $full_string)
     <title>Bad Words: result</title>
 </head>
 
+<style>
+    h4 {
+        margin-bottom: 40px;
+    }
+</style>
+
 <body class="bg-dark">
     <div class="container text-center text-white py-5">
         <h1 class="mb-4">Your result</h1>
         <div class="bg-light text-dark p-5">
-            <h3>Parola da censurare: <?= $word_to_clip ?></h3>
-            <h3>Stringa originale: <?= $full_string ?></h3>
-            <h3>Stringa censurata: <?= $censured_string ?></h3>
+            <h3>Parola da censurare:</h3>
+            <h4>
+                <?= $word_to_clip ?>
+            </h4>
+            <h3>Stringa originale:</h3>
+            <h4>
+                <?= $full_string ?>
+            </h4>
+            <h3>Stringa censurata:</h3>
+            <h4>
+                <?= $censured_string ?>
+            </h4>
         </div>
     </div>
 </body>
