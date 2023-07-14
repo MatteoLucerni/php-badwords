@@ -32,9 +32,18 @@ $censured_string = str_replace($word_to_clip, '***', $full_string)
             <h4>
                 <?= $full_string ?>
             </h4>
+            <h3>Lunghezza stringa originale:</h3>
+            <h4>
+                <?= strlen($full_string) ?>
+            </h4>
             <h3>Stringa censurata:</h3>
             <h4>
                 <?= $censured_string ?>
+            </h4>
+
+            <h3>Lunghezza stringa censurata:</h3>
+            <h4>
+                <?= strlen($censured_string) ?>
             </h4>
         </div>
     </div>
