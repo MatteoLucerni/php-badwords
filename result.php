@@ -17,6 +17,7 @@ $censured_string = str_replace($word_to_clip, '***', $full_string)
 <style>
     h4 {
         margin-bottom: 40px;
+        color: gray;
     }
 </style>
 
