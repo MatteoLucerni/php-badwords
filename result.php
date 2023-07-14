@@ -23,7 +23,7 @@ $censured_string = str_replace($word_to_clip, '***', $full_string)
 
 <body class="bg-dark">
     <div class="container text-center text-white py-5">
-        <h1 class="mb-4">Your result</h1>
+        <h1 class="mb-4 fw-bold">Your result</h1>
         <div class="bg-light text-dark p-5">
             <h3>Parola da censurare:</h3>
             <h4>
